@@ -1,9 +1,11 @@
 using System;
 
-class Program
+class PingPong
 {
     static void Main()
     {
-        Test;
+        Console.WriteLine("Enter a number!");
+        string stringNumber = Console.ReadLine();
+        int userNumber = int.Parse(stringNumber);
     }
 }
