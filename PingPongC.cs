@@ -4,29 +4,27 @@ class PingPong
 {
     static void Main()
     {
-        List<int> pingPongList = new List<int>();
-
         Console.WriteLine("Enter a number!");
         string stringNumber = Console.ReadLine();
         int userNumber = int.Parse(stringNumber);
 
-        for (int i = 0; i < pingPongList.length; i++)
+        for (int i = 1; i <= userNumber; i++)
         {
-            if(i / 15 == 0)
+            if (i % 15 == 0)
             {
-                pingPongList.Add("ping-pong");
+                Console.WriteLine("ping-pong");
             }
-            else if(i / 3 == 0)
+            else if (i % 3 == 0)
             {
-                pingPongList.Add("ping");
+                Console.WriteLine("ping");
             }
-            else if(i / 5 == 0)
+            else if (i % 5 == 0)
             {
-                pingPongList.Add("pong");
+                Console.WriteLine("pong");
             }
             else
             {
-                pingPongList.Add(i);
+                Console.WriteLine(i);
             }
         }
     }
