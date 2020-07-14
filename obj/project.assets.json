@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\David\\Desktop\\C#\\Ping-Pong-C\\template.csproj",
-      "projectName": "template",
-      "projectPath": "c:\\Users\\David\\Desktop\\C#\\Ping-Pong-C\\template.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Desktop\\C#\\Ping-Pong-C\\PingPongC.csproj",
+      "projectName": "PingPongC",
+      "projectPath": "C:\\Users\\David\\Desktop\\C#\\Ping-Pong-C\\PingPongC.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\David\\Desktop\\C#\\Ping-Pong-C\\obj\\",
+      "outputPath": "C:\\Users\\David\\Desktop\\C#\\Ping-Pong-C\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
